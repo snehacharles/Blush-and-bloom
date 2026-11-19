@@ -1,16 +1,16 @@
 
 
 import "./globals.css";
-import { Playfair_Display, DM_Sans } from "next/font/google";
+import { Syne, Albert_Sans } from "next/font/google";
 
-const playfair = Playfair_Display({
+const syne = Syne({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-syne",
 });
 
-const dmSans = DM_Sans({
+const albertSans = Albert_Sans({
   subsets: ["latin"],
-  variable: "--font-dm-sans",
+  variable: "--font-albert-sans",
 });
 
 export const metadata = {
@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${dmSans.variable}`}>
+      <body className={`${syne.variable} ${albertSans.variable}`}>
         {children}
       </body>
     </html>

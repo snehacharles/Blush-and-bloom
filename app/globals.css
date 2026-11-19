@@ -23,7 +23,26 @@ html {
 body {
   background: var(--cream);
   color: var(--dark);
-  font-family: var(--font-dm-sans), sans-serif;
+  font-family: var(--font-albert-sans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-syne), sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  overflow-wrap: break-word;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
 }
 
 button, a {
@@ -75,9 +94,11 @@ button {
 }
 
 .brand-name {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 32px;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.04em;
   color: var(--brown);
 }
 
@@ -160,16 +181,16 @@ button {
 }
 
 .hero h1 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: clamp(48px, 5.5vw, 76px);
   line-height: 1.12;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
 }
 
 .hero h1 em {
   color: var(--rose);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .hero-description {
@@ -232,9 +253,9 @@ button {
 }
 
 .hero-bottom strong {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
 }
 
@@ -272,7 +293,7 @@ button {
 }
 
 .image-caption p {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 18px;
   margin-top: 5px;
   color: var(--brown);
@@ -300,7 +321,7 @@ button {
 }
 
 .hero-stamp strong {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 23px;
   text-align: center;
   line-height: 1;
@@ -334,6 +355,10 @@ button {
 
 .intro-strip i {
   color: var(--rose);
+  background: transparent;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
   font-size: 17px;
 }
 
@@ -352,9 +377,9 @@ button {
 }
 
 .placeholder-section h2 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
   margin-top: 20px;
 }
@@ -515,9 +540,9 @@ button {
 }
 
 .page-banner h1 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: clamp(42px, 6vw, 68px);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
 }
 
@@ -547,10 +572,10 @@ button {
 }
 
 .section-heading {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: clamp(34px, 4vw, 49px);
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
 }
 
@@ -788,9 +813,9 @@ button {
 }
 
 .service-card-content h3 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
 }
 
@@ -848,9 +873,9 @@ button {
 }
 
 .bridal-card h3 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 18px 0 12px;
   color: var(--brown);
 }
@@ -917,9 +942,9 @@ button {
 }
 
 .gallery-overlay h3 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 600;
   margin-top: 7px;
 }
 
@@ -990,8 +1015,8 @@ button {
 
 .booking-form h2,
 .success-message h2 {
-  font-family: var(--font-playfair), serif;
-  font-weight: 400;
+  font-family: var(--font-syne), sans-serif;
+  font-weight: 600;
   font-size: 32px;
   color: var(--brown);
   margin-bottom: 15px;
@@ -1122,9 +1147,9 @@ button {
 }
 
 .contact-card h3 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--brown);
   margin: 18px 0 10px;
 }
@@ -1182,9 +1207,9 @@ button {
 .about-philosophy h2 {
   max-width: 850px;
   margin: 0 auto 22px;
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: clamp(35px, 5vw, 58px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
 }
 
@@ -1192,7 +1217,7 @@ button {
 .about-values h2 em,
 .about-cta h2 em {
   color: var(--rose);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .about-philosophy > p:last-child {
@@ -1217,9 +1242,9 @@ button {
 
 .about-values-heading h2 {
   margin-top: 15px;
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: clamp(34px, 4vw, 48px);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .values-grid {
@@ -1243,9 +1268,9 @@ button {
 
 .values-grid article h3 {
   margin: 20px 0 15px;
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .values-grid article p {
@@ -1275,9 +1300,9 @@ button {
 .about-cta h2 {
   max-width: 800px;
   margin: 22px auto 35px;
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-syne), sans-serif;
   font-size: clamp(34px, 5vw, 54px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
 }
 
@@ -1396,8 +1421,8 @@ main [id] {
 }
 
 .booking-form h3 {
-  font-family: var(--font-playfair), serif;
-  font-weight: 400;
+  font-family: var(--font-syne), sans-serif;
+  font-weight: 600;
   font-size: 32px;
   color: var(--brown);
   margin-bottom: 15px;

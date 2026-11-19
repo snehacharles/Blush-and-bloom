@@ -130,11 +130,11 @@ export default function Home() {
 
         <div className="intro-strip" aria-label="Beauty, self care, confidence, elegance">
           <span>BEAUTY</span>
-          <i aria-hidden="true">✳</i>
+          <i aria-hidden="true">✳︎</i>
           <span>SELF CARE</span>
-          <i aria-hidden="true">✳</i>
+          <i aria-hidden="true">✳︎</i>
           <span>CONFIDENCE</span>
-          <i aria-hidden="true">✳</i>
+          <i aria-hidden="true">✳︎</i>
           <span>ELEGANCE</span>
         </div>
 
